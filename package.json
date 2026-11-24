@@ -1,3 +1,4 @@
+
 {
   "name": "voicechat-desktop",
   "version": "1.0.0",
@@ -24,6 +25,14 @@
     "directories": {
       "output": "dist"
     },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "mazhar090",
+        "repo": "boizy-voice-desktop",
+        "releaseType": "release"
+      }
+    ],
     "files": [
       "main.js",
       "preload.js",
